@@ -20,7 +20,7 @@ class HomePage extends StatelessWidget {
               Padding(
                 padding: const EdgeInsets.all(20),
                 child: Text(
-                  "Courses",
+                  "Cursos",
                   style: Theme.of(context).textTheme.headlineMedium!.copyWith(
                       color: Colors.black, fontWeight: FontWeight.bold),
                 ),
@@ -45,7 +45,7 @@ class HomePage extends StatelessWidget {
               Padding(
                 padding: const EdgeInsets.all(20),
                 child: Text(
-                  "Recent",
+                  "Reciente",
                   style: Theme.of(context).textTheme.headlineSmall!.copyWith(
                       color: Colors.black, fontWeight: FontWeight.bold),
                 ),

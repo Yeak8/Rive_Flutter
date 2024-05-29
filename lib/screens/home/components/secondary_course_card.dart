@@ -34,7 +34,7 @@ class SecondaryCourseCard extends StatelessWidget {
                 ),
                 const SizedBox(height: 4),
                 const Text(
-                  "Watch video - 15 mins",
+                  "Ver vídeo - 15 minutos",
                   style: TextStyle(
                     color: Colors.white60,
                     fontSize: 16,

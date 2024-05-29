@@ -38,14 +38,14 @@ class CourseCard extends StatelessWidget {
                   const Padding(
                     padding: EdgeInsets.only(top: 12, bottom: 8),
                     child: Text(
-                      "Build and animate an iOS app from scratch",
+                      "Cree y anime una aplicación para iOS desde cero",
                       style: TextStyle(
                         color: Colors.white38,
                       ),
                     ),
                   ),
                   const Text(
-                    "61 SECTIONS - 11 HOURS",
+                    "61 SECCIONES - 11 HORAS",
                     style: TextStyle(
                       color: Colors.white38,
                     ),
