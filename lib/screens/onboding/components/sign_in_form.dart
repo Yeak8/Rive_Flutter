@@ -42,6 +42,7 @@ class _SignInFormState extends State<SignInForm> {
   }
 
   void singIn(BuildContext context) {
+    // confetti.fire();
     setState(() {
       isShowConfetti = true;
       isShowLoading = true;
@@ -58,7 +59,9 @@ class _SignInFormState extends State<SignInForm> {
                 isShowLoading = false;
               });
               confetti.fire();
+              // Navigate & hide confetti
               Future.delayed(const Duration(seconds: 1), () {
+                // Navigator.pop(context);
                 Navigator.push(
                   context,
                   MaterialPageRoute(

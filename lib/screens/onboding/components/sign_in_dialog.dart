@@ -138,6 +138,11 @@ void showCustomDialog(BuildContext context, {required ValueChanged onValue}) {
     },
     transitionBuilder: (_, anim, __, child) {
       Tween<Offset> tween;
+      // if (anim.status == AnimationStatus.reverse) {
+      //   tween = Tween(begin: const Offset(0, 1), end: Offset.zero);
+      // } else {
+      //   tween = Tween(begin: const Offset(0, -1), end: Offset.zero);
+      // }
 
       tween = Tween(begin: const Offset(0, -1), end: Offset.zero);
 
@@ -145,6 +150,10 @@ void showCustomDialog(BuildContext context, {required ValueChanged onValue}) {
         position: tween.animate(
           CurvedAnimation(parent: anim, curve: Curves.easeInOut),
         ),
+        // child: FadeTransition(
+        //   opacity: anim,
+        //   child: child,
+        // ),
         child: child,
       );
     },
