@@ -1,16 +1,23 @@
-# flutter_application_0
+Programa de tienda online hecha por:
+# Ricardo Grajales Castillo
+Para actividad del instituto tecnologico de merida (Campus Poniente).
 
-A new Flutter project.
+Para acceder a la app de la tiende se tiene que hacer lo siguiente:
 
-## Getting Started
+1-Dale a login y colocar lo siguiente:
 
-This project is a starting point for a Flutter application.
+*Correo: test@gmail.com
 
-A few resources to get you started if this is your first Flutter project:
+*Contraseña: fffjhusmuee
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+2- Iniciar sesion, en dado caso de querer observar las demas interfaces es libre de observar.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+![ImagenChat](?raw=true)
+
+![ImagenChat](?raw=true)
+
+![ImagenChat](?raw=true)
+
+![ImagenChat](?raw=true)
+
+![ImagenChat](?raw=true)
