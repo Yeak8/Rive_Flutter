@@ -120,12 +120,12 @@ class _EntryPointState extends State<EntryPoint>
               },
               riveOnInit: (artboard) {
                 final controller = StateMachineController.fromArtboard(
-                    artboard, "State Machine");
+                    artboard, "Estado de la maquina");
 
                 artboard.addController(controller!);
 
                 isMenuOpenInput =
-                    controller.findInput<bool>("isOpen") as SMIBool;
+                    controller.findInput<bool>("Esta abierto") as SMIBool;
                 isMenuOpenInput.value = true;
               },
             ),
